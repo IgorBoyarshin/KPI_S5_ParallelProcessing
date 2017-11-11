@@ -4,9 +4,11 @@
 *.lst
 *.docx
 *.class
+*.hi
 
 lab1
 lab3
 Lab4
 lab5
 lab6
+lab7
