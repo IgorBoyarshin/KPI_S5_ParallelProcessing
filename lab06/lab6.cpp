@@ -95,7 +95,7 @@ void thread3_func (const Data& data,
 int main(int argc, char **argv) {
     // std::cout << ":> Main program started!" << std::endl;
 
-    unsigned int N = 3000;
+    unsigned int N = 4;
     const unsigned int OUTPUT_THRESHOLD = 7;
     const Data data(N);
 
@@ -112,9 +112,6 @@ int main(int argc, char **argv) {
             thread2_func(data, N, OUTPUT_THRESHOLD);
             break;
         case 2:
-            thread3_func(data, N, OUTPUT_THRESHOLD);
-            break;
-        case 3:
             thread3_func(data, N, OUTPUT_THRESHOLD);
             break;
         default:
